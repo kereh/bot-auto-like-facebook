@@ -122,6 +122,7 @@ def comment():
     a = br.open("https://yolikers.com/commenter.php?type=status")
     br.select_form(nr=0)
     br.form["access_token"] = token
+    br.submit()
     try:
         b = br.open("https://yolikers.com/commenter.php?type=status")
         br.select_form(nr=0)
