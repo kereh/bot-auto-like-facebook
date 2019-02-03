@@ -119,7 +119,7 @@ def comment():
     print
     print "[{}]{} Sending Commenter On Your Newest Post Please Wait...".format(info,good)
     token = open("token.txt","r").read()
-    a = br.open("https://yolikers.com/")
+    a = br.open("https://yolikers.com/commenter.php?type=status")
     br.select_form(nr=0)
     br.form["access_token"] = token
     try:
