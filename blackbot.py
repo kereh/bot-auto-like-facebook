@@ -35,7 +35,6 @@ banner_menu = """
  ░          ░ ░           
       ░
 
-Author : {}Mr.K3R3H{}
 Github : {}https://github.com/kereh{}
 
 [+] Menu Bot [+]
@@ -58,8 +57,6 @@ banner = """
  ░          ░ ░
       ░
 
-Author : {}Mr.K3R3H{}                                                                     
-Facebook : {}Ronaldo Kereh{}
 Github : {}https://github.com/kereh{}
 """.format(green,normal,cyan,normal,green,normal)
 ###
